@@ -1,0 +1,880 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.ma{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: 0px;
+  background-color: #C71585;
+}
+.ma>article:nth-child(1){
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+}
+.ma>article:nth-child(2){
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin: auto 0;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+}
+.ma>article:nth-child(3){
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  margin: 0px auto;
+  background-color: black;
+  width: 200px;
+  height: 200px;
+}
+.ma>article:nth-child(4){
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: 0px auto;
+  background-color: black;
+  width: 200px;
+  height: 200px;
+}
+.ma>article:nth-child(5){
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  margin: 0px auto;
+  background-color: black;
+  width: 200px;
+  height: 200px;
+}
+.ma>article:nth-child(6){
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin: auto 0;
+  background-color: black;
+  width: 200px;
+  height: 200px;
+}
+.ma>article:nth-child(7){
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  margin: 0px auto;
+  background-color: black;
+  width: 200px;
+  height: 200px;
+}
+.ma>article:nth-child(8){
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  left: 0px;
+  margin: 0 auto;
+  background-color: black;
+  width: 200px;
+  height: 200px;
+}
+.ma>article:nth-child(9){
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin: auto;
+  background-color: black;
+  width: 200px;
+  height: 200px;
+}
+.ma>article:nth-child(1)>nav:nth-child(1){
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(1)>nav:nth-child(2){
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin: auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(1)>nav:nth-child(3){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin:auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(1)>nav:nth-child(4){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin:0 auto;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(1)>nav:nth-child(5){
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  margin: 0 auto ;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(1)>nav:nth-child(6){
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin:auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(1)>nav:nth-child(7){
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  margin: auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(1)>nav:nth-child(8){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top :0px;
+  margin:0 auto ;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(1)>nav:nth-child(9){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top :0px;
+  bottom: 0px;
+  margin:auto ;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(2)>nav:nth-child(1){
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(2)>nav:nth-child(2){
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin: auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(2)>nav:nth-child(3){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin:auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(2)>nav:nth-child(4){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin:0 auto;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(2)>nav:nth-child(5){
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  margin: 0 auto ;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(2)>nav:nth-child(6){
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin:auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(2)>nav:nth-child(7){
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  margin: auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(2)>nav:nth-child(8){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top :0px;
+  margin:0 auto ;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(2)>nav:nth-child(9){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top :0px;
+  bottom: 0px;
+  margin:auto ;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(3)>nav:nth-child(1){
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(3)>nav:nth-child(2){
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin: auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(3)>nav:nth-child(3){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin:auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(3)>nav:nth-child(4){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin:0 auto;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(3)>nav:nth-child(5){
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  margin: 0 auto ;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(3)>nav:nth-child(6){
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin:auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(3)>nav:nth-child(7){
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  margin: auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(3)>nav:nth-child(8){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top :0px;
+  margin:0 auto ;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(3)>nav:nth-child(9){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top :0px;
+  bottom: 0px;
+  margin:auto ;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(4)>nav:nth-child(1){
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(4)>nav:nth-child(2){
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin: auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(4)>nav:nth-child(3){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin:auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(4)>nav:nth-child(4){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin:0 auto;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(4)>nav:nth-child(5){
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  margin: 0 auto ;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(4)>nav:nth-child(6){
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin:auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(4)>nav:nth-child(7){
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  margin: auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(4)>nav:nth-child(8){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top :0px;
+  margin:0 auto ;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(4)>nav:nth-child(9){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top :0px;
+  bottom: 0px;
+  margin:auto ;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(5)>nav:nth-child(1){
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(5)>nav:nth-child(2){
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin: auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(5)>nav:nth-child(3){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin:auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(5)>nav:nth-child(4){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin:0 auto;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(5)>nav:nth-child(5){
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  margin: 0 auto ;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(5)>nav:nth-child(6){
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin:auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(5)>nav:nth-child(7){
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  margin: auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(5)>nav:nth-child(8){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top :0px;
+  margin:0 auto ;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(5)>nav:nth-child(9){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top :0px;
+  bottom: 0px;
+  margin:auto ;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(6)>nav:nth-child(1){
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(6)>nav:nth-child(2){
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin: auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(6)>nav:nth-child(3){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin:auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(6)>nav:nth-child(4){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin:0 auto;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(6)>nav:nth-child(5){
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  margin: 0 auto ;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(6)>nav:nth-child(6){
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin:auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(6)>nav:nth-child(7){
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  margin: auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(6)>nav:nth-child(8){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top :0px;
+  margin:0 auto ;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(6)>nav:nth-child(9){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top :0px;
+  bottom: 0px;
+  margin:auto ;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(7)>nav:nth-child(1){
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(7)>nav:nth-child(2){
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin: auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(7)>nav:nth-child(3){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin:auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(7)>nav:nth-child(4){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin:0 auto;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(7)>nav:nth-child(5){
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  margin: 0 auto ;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(7)>nav:nth-child(6){
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin:auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(7)>nav:nth-child(7){
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  margin: auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(7)>nav:nth-child(8){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top :0px;
+  margin:0 auto ;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(7)>nav:nth-child(9){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top :0px;
+  bottom: 0px;
+  margin:auto ;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(8)>nav:nth-child(1){
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(8)>nav:nth-child(2){
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin: auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(8)>nav:nth-child(3){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin:auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(8)>nav:nth-child(4){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin:0 auto;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(8)>nav:nth-child(5){
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  margin: 0 auto ;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(8)>nav:nth-child(6){
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin:auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(8)>nav:nth-child(7){
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  margin: auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(8)>nav:nth-child(8){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top :0px;
+  margin:0 auto ;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(8)>nav:nth-child(9){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top :0px;
+  bottom: 0px;
+  margin:auto ;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(9)>nav:nth-child(1){
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(9)>nav:nth-child(2){
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin: auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(9)>nav:nth-child(3){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin:auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(9)>nav:nth-child(4){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin:0 auto;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(9)>nav:nth-child(5){
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  margin: 0 auto ;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(9)>nav:nth-child(6){
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin:auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(9)>nav:nth-child(7){
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  margin: auto 0;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(9)>nav:nth-child(8){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top :0px;
+  margin:0 auto ;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.ma>article:nth-child(9)>nav:nth-child(9){
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top :0px;
+  bottom: 0px;
+  margin:auto ;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
